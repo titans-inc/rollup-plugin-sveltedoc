@@ -1,0 +1,39 @@
+{
+  "name": "rollup-plugin-sveltedoc",
+  "version": "1.0.0-alpha1",
+  "description": "Generate doc data for Svelte apps",
+  "main": "dist/rollup-plugin-sveltedoc.cjs.js",
+  "module": "dist/rollup-plugin-sveltedoc.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titans-inc/rollup-plugin-sveltedoc.git"
+  },
+  "files": [
+    "src",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "svelte",
+    "rollup"
+  ],
+  "author": "Devi Prasad <deviprsd21@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titans-inc/rollup-plugin-sveltedoc/issues"
+  },
+  "homepage": "https://github.com/titans-inc/rollup-plugin-sveltedoc#readme",
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "rollup-plugin-buble": "^0.19.8"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.8.1"
+  }
+}
